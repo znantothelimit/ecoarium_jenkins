@@ -1,4 +1,4 @@
 :: start-server.bat
 @echo off
 cd /d %~dp0
-node app.js
+start "" node app.js
